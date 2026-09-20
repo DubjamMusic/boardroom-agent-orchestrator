@@ -1,0 +1,21 @@
+{
+  "figureId": "quorum-keeper",
+  "codename": "QUORUM-KEEPER-18",
+  "waveId": "2026-09-20-e-ember",
+  "repo": "DubjamMusic/boardroom-agent-orchestrator",
+  "frozen": ["affirmAgent.ts", "challengeAgent.ts"],
+  "seats": [
+    {"id": "home", "path": "client/src/pages/Home.tsx", "class": "ops"},
+    {"id": "agents", "path": "client/src/pages/Agents.tsx", "class": "ops"},
+    {"id": "monitoring", "path": "client/src/pages/Monitoring.tsx", "class": "ops"},
+    {"id": "intervention", "path": "client/src/pages/Intervention.tsx", "class": "ops"},
+    {"id": "sandbox", "path": "client/src/pages/Sandbox.tsx", "class": "ops"},
+    {"id": "admin", "path": "client/src/pages/Admin.tsx", "class": "ops"},
+    {"id": "quests", "path": "client/src/pages/Quests.tsx", "class": "quest"},
+    {"id": "quest-detail", "path": "client/src/pages/QuestDetail.tsx", "class": "quest"},
+    {"id": "achievements", "path": "client/src/pages/Achievements.tsx", "class": "quest"},
+    {"id": "settings", "path": "client/src/pages/Settings.tsx", "class": "ops"}
+  ],
+  "bannedTokens": ["planner", "executor", "monitor", "data_agent"],
+  "lever": "D"
+}
