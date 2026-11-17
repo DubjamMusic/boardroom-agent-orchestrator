@@ -1,0 +1,18 @@
+{
+  "figureId": "gavel-wright",
+  "codename": "GAVEL-WRIGHT-26",
+  "waveId": "2026-09-26-k-axle",
+  "repo": "DubjamMusic/boardroom-agent-orchestrator",
+  "role": "Bind the boardroom motion docket as a scored vote card.",
+  "knowledge": [
+    "Seat map belongs to quorum-keeper, not this wave",
+    "Docket is a density card, not an enum migration",
+    "affirmAgent.ts and challengeAgent.ts stay frozen on hustlecodex-platform"
+  ],
+  "sample": {"N": 8.4, "V": 7.4, "S": 8.2, "D": 8.3},
+  "weights": {"N": 0.30, "V": 0.20, "S": 0.20, "D": 0.30},
+  "expectedDensity": 8.121,
+  "bannedTokens": ["planner", "executor", "monitor", "data_agent"],
+  "predecessorNotThisWave": "quorum-keeper",
+  "mergePolicy": "pr-only"
+}
